@@ -39,28 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 223.0, 255.0, 20.0 ],
-					"text" : "z is depth in mm, ranging from 0-4500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 201.0, 255.0, 20.0 ],
-					"text" : "x and y are values from 0 to 255"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -98,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.0, 94.0, 127.0, 20.0 ],
+					"patching_rect" : [ 62.5, 94.0, 127.0, 20.0 ],
 					"text" : "raw udpreceive output"
 				}
 
@@ -110,8 +88,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 70.0, 199.0, 22.0 ],
-					"text" : "/xyz 331.769012 54.638588 1478."
+					"patching_rect" : [ 6.0, 70.0, 240.0, 22.0 ],
+					"text" : "/xyz 406.047516 233.269394 50.375"
 				}
 
 			}
